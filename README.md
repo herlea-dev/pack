@@ -1,6 +1,6 @@
 ## Pack
 Tiny package generator, only creating the most bare-bone folder structure 
-for a new package. 
+for a new (local only) package. 
 
 ### Installation
 ```
@@ -20,4 +20,6 @@ Creates the following files:
 |- composer.json
 ```
 
-It also sets up the correct namespacing.
+It also sets up the correct namespacing, and registers your package in your root `composer.json`. 
+
+Using this tool you can create local packages for utility classes/functionality to be shared across domains within your application easily.
